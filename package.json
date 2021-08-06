@@ -1,0 +1,14 @@
+{
+  "name": "levelnamer",
+  "version": "1.0.0",
+  "description": "discord bot that names levels said in the discord such as 1-1 is ten meter simple bridge",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hamdatnoob",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
