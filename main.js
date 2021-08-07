@@ -57,7 +57,7 @@ client.on('message', message =>{
     if(message.content.search(/(([1-5]-[0-9]{1,2})c)/s) != -1) message.channel.send(`Level Name for ${command}c:\nPB2: ${pb2_world} - ${pb2_level} Challenge`);
     else if(message.content.search(/(([1-6]-[0-9]{1,2})[^c])/s) != -1) message.channel.send(`Level Names for ${command}:\nPB1: ${pb1_world} - ${pb1_level}\nPB2: ${pb2_world} - ${pb2_level}`);
     else if(message.content.search(/(([7-8]-[0-9]{1,2})[^c])/s) != -1) message.channel.send(`Level Name for ${command}:\nPB1: ${pb1_world} - ${pb1_level}`);
-    else message.channel.send(`World Names for ${command}:\nPB1: ${pb1_world}\nPB2: ${pb2_world}`);
+    //else message.channel.send(`World Names for ${command}:\nPB1: ${pb1_world}\nPB2: ${pb2_world}`);
     return;
 })
     // logs in the bot (must be last)
